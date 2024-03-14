@@ -1,0 +1,50 @@
+/* HEADER */
+
+nav li:hover a{
+    color: white!important;
+}
+nav li:hover svg{
+    color: white;
+    transform: rotate(180deg);
+}
+.nav-a{
+    color: black!important;
+}
+.nav-hover:hover{
+    color: rgb(63, 63, 230)!important;
+}
+.active{
+    background-color: white;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    animation: slidedown  0.4s linear!important;
+}
+@keyframes slidedown{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-item:hover .portfolio-content{
+    opacity: 1!important;
+}
+
+/* BLOGS */
+
+.before\:content-\[\'\'\]::before{
+    box-shadow: 2px 2px 2px -1px rgb(60 72 88 / 0.15)!important;
+}
+
+/* REVIEW */
+
+.slick-next, .slick-prev{
+    display: none!important;
+}
