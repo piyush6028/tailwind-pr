@@ -5,7 +5,7 @@
 
 - 👨‍💻 All of my projects are available at [(https://github.com/piyush6028)]
 
-- 💬 Ask me about **Front End Development**
+- 💬 Ask me about **Front End Designer**
 
 - 📫 How to reach me **chauhanpiyush6028@gmail.com**
 
